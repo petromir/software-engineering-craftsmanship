@@ -1,7 +1,31 @@
 # Backwards-compatibility guide
 
+Table of Contents
+-----------------
+
+* [Intro](#intro)
+* [API](#api)
+    * [Library](#library)
+      * [Interfaces](#interfaces)
+        * [Adding methods](#adding-methods)
+        * [Removing methods](#removing-methods)
+        * [Changing method signatures](#changing-method-signatures)
+      * [Data classes](#data-classes)
+        * [Adding fields](#adding-fields)
+        * [Removing fields](#removing-fields)
+        * [Changing fields](#changing-fields)
+    * [HTTP](#http)
+    * [Database](#database)
+    * [Events](#events)
+      * [Payloads](#payloads)
+
 ## Intro
 
+Backwards-compatibility refers to the ability of a system, software, or component to function correctly and as 
+intended when new features, updates, or modifications are introduced while still maintaining compatibility with 
+older versions or systems. 
+By maintaining compatibility with older versions, developers can create more robust, maintainable, 
+and scalable software systems.
 
 ## API
 ### Library
